@@ -1,6 +1,6 @@
-﻿using LichessAPI.Types;
+﻿using Lichess.NET.Types;
 
-namespace LichessAPI.Clients.Authorized
+namespace Lichess.NET.Clients.Authorized
 {
     public partial class LichessAuthorizedClient : LichessApiClient
     {

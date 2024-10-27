@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace LichessAPI.Types.Arena
+namespace Lichess.NET.Types.Arena
 {
     public class ArenaPlace
     {

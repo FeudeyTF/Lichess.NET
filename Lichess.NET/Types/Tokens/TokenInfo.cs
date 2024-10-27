@@ -1,7 +1,7 @@
-﻿using LichessAPI.Converters.Scopes;
+﻿using Lichess.NET.Converters.Scopes;
 using System.Text.Json.Serialization;
 
-namespace LichessAPI.Types.Tokens
+namespace Lichess.NET.Types.Tokens
 {
     public class TokenInfo
     {

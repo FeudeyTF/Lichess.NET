@@ -1,4 +1,4 @@
-﻿namespace LichessAPI.Types.Puzzles
+﻿namespace Lichess.NET.Types.Puzzles
 {
     public class Puzzle
     {

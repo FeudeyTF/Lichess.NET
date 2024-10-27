@@ -1,7 +1,7 @@
-﻿using LichessAPI.Converters;
+﻿using Lichess.NET.Converters;
 using System.Text.Json.Serialization;
 
-namespace LichessAPI.Types
+namespace Lichess.NET.Types
 {
     public record class User
     {

@@ -1,4 +1,4 @@
-﻿namespace LichessAPI.Types.Streams
+﻿namespace Lichess.NET.Types.Streams
 {
     public class Stream
     {

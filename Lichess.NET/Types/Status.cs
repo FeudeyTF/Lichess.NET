@@ -1,4 +1,4 @@
-﻿namespace LichessAPI.Types
+﻿namespace Lichess.NET.Types
 {
     public class Status
     {

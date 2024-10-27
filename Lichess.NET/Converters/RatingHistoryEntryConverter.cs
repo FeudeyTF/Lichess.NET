@@ -1,3 +1,3 @@
-﻿namespace LichessAPI.Converters
+﻿namespace Lichess.NET.Converters
 {
 }

@@ -1,7 +1,7 @@
-﻿using LichessAPI.Types.Arena;
-using LichessAPI.Types.Swiss;
+﻿using Lichess.NET.Types.Arena;
+using Lichess.NET.Types.Swiss;
 
-namespace LichessAPI.Clients
+namespace Lichess.NET.Clients
 {
     public partial class LichessClient : LichessApiClient
     {

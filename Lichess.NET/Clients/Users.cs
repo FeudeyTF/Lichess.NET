@@ -1,7 +1,7 @@
-﻿using LichessAPI.Types;
-using LichessAPI.Types.Streams;
+﻿using Lichess.NET.Types;
+using Lichess.NET.Types.Streams;
 
-namespace LichessAPI.Clients
+namespace Lichess.NET.Clients
 {
     public partial class LichessClient : LichessApiClient
     {

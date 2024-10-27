@@ -1,4 +1,4 @@
-﻿namespace LichessAPI
+﻿namespace Lichess.NET
 {
     public enum GameType
     {

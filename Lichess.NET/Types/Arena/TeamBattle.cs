@@ -1,7 +1,7 @@
-﻿using LichessAPI.Converters;
+﻿using Lichess.NET.Converters;
 using System.Text.Json.Serialization;
 
-namespace LichessAPI.Types.Arena
+namespace Lichess.NET.Types.Arena
 {
     [JsonConverter(typeof(TeamBattleConverter))]
     public class TeamBattle

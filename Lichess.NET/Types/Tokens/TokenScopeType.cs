@@ -1,4 +1,4 @@
-﻿namespace LichessAPI.Types.Tokens
+﻿namespace Lichess.NET.Types.Tokens
 {
     public enum TokenScopeType
     {

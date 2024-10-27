@@ -1,8 +1,8 @@
-﻿using LichessAPI.Types.Tokens;
+﻿using Lichess.NET.Types.Tokens;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace LichessAPI.Converters.Scopes
+namespace Lichess.NET.Converters.Scopes
 {
     internal class TokenScopesConverter : JsonConverter<List<TokenScope>>
     {

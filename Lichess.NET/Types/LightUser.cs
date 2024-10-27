@@ -1,6 +1,6 @@
-﻿using LichessAPI.Clients;
+﻿using Lichess.NET.Clients;
 
-namespace LichessAPI.Types
+namespace Lichess.NET.Types
 {
     public class LightUser
     {

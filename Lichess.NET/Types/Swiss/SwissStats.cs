@@ -1,4 +1,4 @@
-﻿namespace LichessAPI.Types.Swiss
+﻿namespace Lichess.NET.Types.Swiss
 {
     public class SwissStats
     {

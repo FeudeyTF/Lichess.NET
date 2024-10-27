@@ -1,6 +1,6 @@
-﻿using LichessAPI.Types.Puzzles;
+﻿using Lichess.NET.Types.Puzzles;
 
-namespace LichessAPI.Clients.Authorized
+namespace Lichess.NET.Clients.Authorized
 {
     public partial class LichessAuthorizedClient : LichessApiClient
     {

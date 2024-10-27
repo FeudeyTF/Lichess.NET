@@ -1,8 +1,8 @@
-﻿using LichessAPI.Types.Arena;
+﻿using Lichess.NET.Types.Arena;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace LichessAPI.Converters
+namespace Lichess.NET.Converters
 {
     internal class TeamBattleConverter : JsonConverter<TeamBattle>
     {

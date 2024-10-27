@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace LichessAPI
+namespace Lichess.NET
 {
     internal static class Utils
     {

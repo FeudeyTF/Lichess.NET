@@ -1,8 +1,8 @@
-﻿using LichessAPI.Converters;
-using LichessAPI.Converters.Scopes;
+﻿using Lichess.NET.Converters;
+using Lichess.NET.Converters.Scopes;
 using System.Text.Json;
 
-namespace LichessAPI
+namespace Lichess.NET
 {
     public abstract class LichessApiClient
     {

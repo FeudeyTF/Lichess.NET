@@ -1,4 +1,4 @@
-﻿namespace LichessAPI.Clients.Authorized
+﻿namespace Lichess.NET.Clients.Authorized
 {
     public enum TokenType
     {

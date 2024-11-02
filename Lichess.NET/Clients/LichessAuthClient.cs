@@ -12,7 +12,7 @@ namespace Lichess.NET.Clients
 
         public readonly PuzzlesClient Puzzles;
 
-        public UsersClient Users;
+        public AccountClient Users;
 
         public LichessAuthClient(string token, TokenType tokenType = TokenType.Bearer)
         {

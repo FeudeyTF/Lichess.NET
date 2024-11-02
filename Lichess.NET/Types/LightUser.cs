@@ -11,6 +11,6 @@ namespace Lichess.NET.Types
         public string Flair = string.Empty;
 
         public async Task<User?> GetFullUser(LichessClient client)
-            => await client.GetUserAsync(Name);
+            => await client.Users.GetUserAsync(Name);
     }
 }

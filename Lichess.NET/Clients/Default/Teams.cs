@@ -1,9 +1,11 @@
 ﻿using Lichess.NET.Types;
 
-namespace Lichess.NET.Clients
+namespace Lichess.NET.Clients.Default
 {
-    public partial class LichessClient : LichessApiClient
+    public class TeamsClient : LichessApiClient
     {
+        internal TeamsClient() { }
+
         public async Task<List<Team>> GetUserTeamsAsync(string username)
         {
             var teams = await GetJsonObject<List<Team>>(HttpMethod.Get, "team", "of", username);

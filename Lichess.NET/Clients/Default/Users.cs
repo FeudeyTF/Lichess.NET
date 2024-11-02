@@ -1,10 +1,12 @@
 ﻿using Lichess.NET.Types;
 using Lichess.NET.Types.Streams;
 
-namespace Lichess.NET.Clients
+namespace Lichess.NET.Clients.Default
 {
-    public partial class LichessClient : LichessApiClient
+    public class UsersClient : LichessApiClient
     {
+        internal UsersClient() { }
+
         public async Task<User?> GetUserAsync(string username)
         {
             return await GetJsonObject<User>(HttpMethod.Get, "user", username);

@@ -1,10 +1,12 @@
 ﻿using Lichess.NET.Types.Tokens;
 using System.Text.Json;
 
-namespace Lichess.NET.Clients
+namespace Lichess.NET.Clients.Default
 {
-    public partial class LichessClient : LichessApiClient
+    public class TokensClient : LichessApiClient
     {
+        internal TokensClient() {}
+
         public async Task<Dictionary<string, TokenInfo>> TestTokens(params string[] tokens)
         {
             HttpRequestMessage msg = new(HttpMethod.Post, LICHESS_API_URL + string.Join("/", ["token", "test"]))

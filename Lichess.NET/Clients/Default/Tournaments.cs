@@ -1,10 +1,12 @@
 ﻿using Lichess.NET.Types.Arena;
 using Lichess.NET.Types.Swiss;
 
-namespace Lichess.NET.Clients
+namespace Lichess.NET.Clients.Default
 {
-    public partial class LichessClient : LichessApiClient
+    public class TournamentsClient : LichessApiClient
     {
+        internal TournamentsClient() { }
+
         public async Task<List<ArenaTournament>> GetTeamArenaTournaments(string teamId)
             => await GetNDJsonObject<ArenaTournament>(new StreamReader(await GetFileAsync("team", teamId, "arena")));
 

@@ -2,8 +2,12 @@
 
 namespace Lichess.NET.Clients.Authorized
 {
-    public partial class LichessAuthorizedClient : LichessApiClient
+    public partial class PuzzlesClient : LichessAuthClient
     {
+        public PuzzlesClient(string token, TokenType tokenType = TokenType.Bearer) : base(token, tokenType)
+        {
+        }
+
         public async Task<List<PuzzleActivity>> GetPuzzleActivity(int? max = default, DateTime beforeDate = default)
         {
             string queryParams = Utils.GetQueryParametersString(("max", max), ("before", beforeDate));

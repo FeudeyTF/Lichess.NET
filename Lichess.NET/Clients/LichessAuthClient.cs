@@ -2,18 +2,32 @@
 
 namespace Lichess.NET.Clients
 {
+    /// <summary>
+    /// Client for working with Lichess API endpoints, that require QAuth token
+    /// </summary>
     public partial class LichessAuthClient : LichessApiClient
     {
         public readonly string QAuthToken;
 
         public readonly TokenType TokenType;
 
+        /// <summary>
+        /// Common client, that works with endpoints, which doesn't require tokens 
+        /// </summary>
         public readonly LichessClient Default;
 
+        /// <summary>
+        /// Client, that works with <a href="https://lichess.org/api#tag/Puzzles">Puzzles</a> endpoints
+        /// </summary>
         public readonly PuzzlesClient Puzzles;
 
+        /// <summary>
+        /// Client, that works with <a href="https://lichess.org/api#tag/Account">Account</a> endpoints
+        /// </summary>
         public AccountClient Users;
 
+        /// <param name="token"><a href="https://lichess.org/api#section/Introduction/Authentication">QAuth token</a> of a client</param>
+        /// <param name="tokenType">Type of a token. Default is Bearer type</param>
         public LichessAuthClient(string token, TokenType tokenType = TokenType.Bearer)
         {
             QAuthToken = token;

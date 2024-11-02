@@ -1,10 +1,10 @@
 # Lichess.NET
 An unofficial library for creating clients that work with the [Lichess API](https://lichess.org/api)
 
-![Lichess.NET Version](https://img.shields.io/badge/Lichess.NET-0.0.0.1-blue)
+[![Lichess.NET Version](https://img.shields.io/badge/Lichess.NET-0.0.0.1-blue)](https://github.com/FeudeyTF/Lichess.NET)
 ![.NET Version](https://img.shields.io/badge/.NET-8.0-purple)
 [![Lichess API Version](https://img.shields.io/badge/Lichess_API-2.0.0-white)](https://lichess.org/api)
-[![License](https://img.shields.io/github/license/FeudeyTF/lichess.net.svg?style=flat-square&maxAge=2592000&label=License)](https://raw.githubusercontent.com/FeudeyTF/lichess.net/main/LICENSE)
+[![License](https://img.shields.io/github/license/FeudeyTF/lichess.net.svg?maxAge=2592000&label=License)](https://raw.githubusercontent.com/FeudeyTF/lichess.net/main/LICENSE)
 
 # 📚 Documentation
 Work in progress...
